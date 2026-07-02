@@ -9,4 +9,10 @@
   ambiguity in a large, actively-developed org — same class of
   correction as `kami-si` -> `signal-integrity`.
 
-  Zero-dep portable CLJC. Restoration pending.")
+  One namespace per original Rust module:
+    ip-xact.component    — IP-XACT component catalog + IEEE 1685-2014 XML export
+    ip-xact.bus-protocol — AXI4/APB bus config + Verilog RTL port generation
+    ip-xact.noc          — Network-on-Chip topology synthesis (mesh/ring/crossbar/tree)
+    ip-xact.cdc          — Clock Domain Crossing analysis + violation detection
+
+  Zero-dep portable CLJC — pure data + pure functions, no IO/GPU.")
