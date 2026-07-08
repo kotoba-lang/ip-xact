@@ -12,7 +12,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'ip-xact)))))
+    (is (some? (find-ns 'ip-xact)))))
 
 (defn- sample-component []
   (component/ip-xact-component
