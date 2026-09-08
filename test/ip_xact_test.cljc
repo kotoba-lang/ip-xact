@@ -3,7 +3,7 @@
   (kami-engine/kami-ip/src/{ip_xact,bus_protocol,noc,cdc}.rs `mod tests`,
   deleted PR #82)."
   (:require [clojure.test :refer [deftest is testing]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [ip-xact]
             [ip-xact.component :as component]
             [ip-xact.bus-protocol :as bus-protocol]
