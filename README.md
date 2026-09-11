@@ -35,5 +35,5 @@ enums in different Rust modules.
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
