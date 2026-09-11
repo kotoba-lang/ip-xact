@@ -23,7 +23,7 @@ of correction as `kami-si` -> `signal-integrity`.
 
 Restored — all 4 modules ported from the original 861-line Rust source
 (`lib.rs` + `ip_xact.rs` + `bus_protocol.rs` + `noc.rs` + `cdc.rs`), with
-all 9 original Rust unit tests mirrored 1:1 in `test/ip_xact_test.cljc`
+all 9 original Rust unit tests mirrored 1:1 in `test/ip_xact_test.cljk`
 (+1 smoke test) — 10 tests / 22 assertions, 0 failures. Pure data + pure
 functions throughout; no IO/GPU.
 
