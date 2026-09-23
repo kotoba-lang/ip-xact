@@ -2,7 +2,7 @@
   "Restoration-fidelity tests — one per original kami-ip Rust test
   (kami-engine/kami-ip/src/{ip_xact,bus_protocol,noc,cdc}.rs `mod tests`,
   deleted PR #82)."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.lang.text :as str]
             [ip-xact]
             [ip-xact.component :as component]
